@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# -*- mode: sh -*-
+
+if [ -n "$ASDF_INSTALL_PATH" ]; then
+  export GRAILS_HOME="$ASDF_INSTALL_PATH"
+fi
